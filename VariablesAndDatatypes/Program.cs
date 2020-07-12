@@ -15,7 +15,7 @@ namespace VariablesAndDatatypes
             string sV = "Dette er det bedste kursus nogensinde."; //Indeholder en liste af tegn/cifre. Indikeres med gåseøjne "".
 
             List<int> lI = new List<int>{1, 2, 3, 4, 5}; //List<T> er en liste af typen T. I dette tilfælde har jeg valgt int (integer).
-            
+
             int[] aI = new [] { 1, 3, 5, 7, 9 }; //[] er indikeringen af en array. Array er næsten det samme som List, men størrelsen kan ikke ændres i løbet af programmet.
 
             //Den næste kode indeholder loops. Ikke fokuser på dette. De printer de tidligere lister af integers.
@@ -33,7 +33,7 @@ namespace VariablesAndDatatypes
             Console.Write('\n');
 
             //Den følgende kode ødelægger programmet, da størrelsen på en array ikke kan ændres. Slet "//" for at udkommenter det eller lav shortcut Ctrl+K Ctrl+U. 
-            // aI[5] = 1;
+            aI[5] = 1;
             //IndexOutOfRangeException indikerer, at den plads man prøvede at få fat i, var uden for arrayets indhold.
         }
     }

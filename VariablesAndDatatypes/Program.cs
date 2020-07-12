@@ -13,6 +13,7 @@ namespace VariablesAndDatatypes
             float fV = 1.1f; //Decimaltal. Fylder mindre, men kan indeholde mindre værdier. Skal indikeres med f efter tallet.
             char cV = 'A'; //Indeholder et tegn/ciffer. Indikeres med apostroffer ''.
             string sV = "Dette er det bedste kursus nogensinde."; //Indeholder en liste af tegn/cifre. Indikeres med gåseøjne "".
+            bool bV = true; //Indeholder true eller false.
 
             List<int> lI = new List<int>{1, 2, 3, 4, 5}; //List<T> er en liste af typen T. I dette tilfælde har jeg valgt int (integer).
 

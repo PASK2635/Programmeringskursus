@@ -16,7 +16,7 @@ namespace VariablesAndDatatypes
             bool bV = true; //Indeholder true eller false.
 
             List<int> lI = new List<int>{1, 2, 3, 4, 5}; //List<T> er en liste af typen T. I dette tilfælde har jeg valgt int (integer).
-
+            
             int[] aI = new [] { 1, 3, 5, 7, 9 }; //[] er indikeringen af en array. Array er næsten det samme som List, men størrelsen kan ikke ændres i løbet af programmet.
 
             //Den næste kode indeholder loops. Ikke fokuser på dette. De printer de tidligere lister af integers.
